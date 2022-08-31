@@ -1,0 +1,84 @@
+body {
+  background: rgb(0, 0, 255, 0.08);
+  margin: 0;
+  padding: 5vh 0 0vh 0;
+  display: grid;
+  justify-content: center;
+}
+form,
+.div {
+  background: white;
+  width: 20vw;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
+  padding: 1vh 3vw 3vh 3vw;
+  font-weight: 900;
+  margin: 0 0 3vh 0;
+}
+
+.formH1,
+.divH1 {
+  text-align: center;
+}
+.divH1 {
+  margin: 0;
+}
+input {
+  width: 100%;
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(240, 230, 220);
+  height: 3vh;
+}
+.formButton,
+.divButton {
+  width: 100%;
+  background: rgb(0, 0, 250);
+  color: white;
+  text-align: center;
+  padding: 0.7vh 0 0.7vh 0;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.formButton:hover,
+.divButton:hover {
+  background: rgb(0, 0, 220);
+}
+.response {
+  color: green;
+  display: none;
+}
+
+.divFp {
+  text-align: center;
+  color: red;
+  margin: 0 0 2vh 0;
+}
+.section {
+  width: 90%;
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(240, 230, 220);
+  padding: 3vh 1vw 3vh 1vw;
+  margin: 0 0 5vh 0;
+}
+
+@media all and (max-width: 1200px) {
+  form,
+  .div {
+    width: 30vw;
+  }
+}
+
+@media all and (max-width: 750px) {
+  form,
+  .div {
+    width: 44vw;
+  }
+}
+
+@media all and (max-width: 450px) {
+  form,
+  .div {
+    width: 60vw;
+  }
+}
